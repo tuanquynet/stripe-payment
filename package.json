@@ -1,0 +1,28 @@
+{
+  "name": "stripe-payment-example",
+  "version": "1.0.0",
+  "description": "An example to test stripe payment integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-p start-server start-client",
+    "start-server": "nodemon server/app.js",
+    "start-client": "cd client/react-app && npm run start",
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "payment"
+  ],
+  "author": "naustud.io",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.15.2",
+    "stripe": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
