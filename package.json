@@ -15,11 +15,11 @@
   "author": "naustud.io",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.3",
     "dotenv": "^8.0.0",
-    "express": "^4.15.2",
-    "stripe": "^4.17.1"
+    "express": "^4.18.2",
+    "stripe": "^11.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1",
